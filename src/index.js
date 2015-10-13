@@ -15,9 +15,9 @@ DOM.render(
   <Provider store={store}>
     <div>
       <Board
-        width={500} height={500}
+        width={800} height={800}
         actions={actions} />
-      <SideEditor actions={actions} />
+      <SideEditor actions={actions} width={600} />
     </div>
   </Provider>,
   document.getElementById('react-app')

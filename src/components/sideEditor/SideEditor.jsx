@@ -9,7 +9,7 @@ class SideEditor extends Component {
   render() {
     let props = this.props;
     return (
-      <aside style={{float: 'right', width: '400px'}}>
+      <aside style={{float: 'left', width: props.width, marginRight: '100px'}}>
         <div>
           This is just a stupid simple tile map editor, built using:
           <ul>
@@ -64,7 +64,8 @@ class SideEditor extends Component {
 
 SideEditor.props = {
   tiles: PropTypes.object.isRequired,
-  actions: PropTypes.object.isRequired
+  actions: PropTypes.object.isRequired,
+  width: PropTypes.number.isRequired
 };
 
 function select(state) {

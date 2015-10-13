@@ -3,7 +3,6 @@ import Ra, {Surface} from 'react-art';
 import {connect} from 'react-redux';
 import {_} from 'lodash';
 
-window.RA = Ra;
 import Map from './Map.jsx!';
 
 class Board extends Component {
