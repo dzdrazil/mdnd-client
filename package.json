@@ -14,7 +14,8 @@
     "eslint": "^1.6.0",
     "eslint-config-airbnb": "^0.1.0",
     "eslint-plugin-react": "^3.5.1",
-    "jspm": "^0.16.12"
+    "jspm": "^0.16.12",
+    "systemjs-builder": "^0.14.8"
   },
   "jspm": {
     "configFile": "jspmConfig.js",
