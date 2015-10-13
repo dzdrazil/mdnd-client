@@ -1,0 +1,9 @@
+{
+  "extends": "airbnb",
+  "rules": {
+    "prefer-const": 0,
+    "id-length": [2, {"min": 2, "max": 20, "properties": "never", "exceptions": ["e","i","j","k","x","y"]}],
+    "comma-dangle": 0,
+    "no-else-return": 0
+  }
+}
